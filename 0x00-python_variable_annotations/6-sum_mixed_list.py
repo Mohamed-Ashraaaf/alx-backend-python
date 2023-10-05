@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""list"""
+""" mixed list"""
 from typing import Union, List
 
 
