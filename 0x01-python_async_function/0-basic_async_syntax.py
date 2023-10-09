@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Asynchronous coroutine that waits for a random delay.
+Asynchro coroutine that waits for random delay
 """
 
 import random
