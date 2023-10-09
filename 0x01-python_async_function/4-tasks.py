@@ -2,7 +2,6 @@
 """
 Creating asyncio.Tasks from a list of async functions.
 """
-
 import asyncio
 from typing import List
 
