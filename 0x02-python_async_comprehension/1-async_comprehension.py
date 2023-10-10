@@ -2,6 +2,7 @@
 """
 Async comprehension that collect random numbers.
 """
+
 import asyncio
 from typing import List
 
