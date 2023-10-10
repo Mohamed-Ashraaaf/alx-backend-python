@@ -16,13 +16,11 @@ async def async_generator():
         yield random.uniform(0, 10)
 
 
+async def print_yielded_values():
+    result = []
+    async for i in async_generator():
+        result.append(i)
+    print(result)
+
 if __name__ == "__main__":
-    import asyncio
-
-    async def print_yielded_values():
-        result = []
-        async for i in async_generator():
-            result.append(i)
-        print(result)
-
     asyncio.run(print_yielded_values())
