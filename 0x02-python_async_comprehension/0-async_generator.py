@@ -22,5 +22,6 @@ async def print_yielded_values():
         result.append(i)
     print(result)
 
+
 if __name__ == "__main__":
     asyncio.run(print_yielded_values())
